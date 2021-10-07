@@ -1,3 +1,5 @@
+// Using dp, check whether 1 step or 2 step is max or not.
+
 #include <bits/stdc++.h>
 using namespace std;
 

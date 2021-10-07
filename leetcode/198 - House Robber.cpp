@@ -1,3 +1,8 @@
+/*
+    Using dp. dp array keeps track of the maximum value robbed upto each index.
+    We take max of dp[i-1] and nums[i] + dp[i-2] for dp[i];
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

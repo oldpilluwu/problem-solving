@@ -1,3 +1,8 @@
+/*
+Using bfs. We can consider a jump as a path to any index in the array.
+We calculate the shortest path to the destination.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

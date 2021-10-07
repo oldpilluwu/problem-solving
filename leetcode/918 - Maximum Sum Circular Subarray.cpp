@@ -1,3 +1,12 @@
+/*
+    Kadane's algorithm.
+    The solution is the total sum - minimum sub array sum. 
+    First we calculate maxSubarray sum.
+    Then we invert the sign of all values in array and calulate minimum sub array sum.
+    If sum of array and minimum sum are equal return max sum.
+    else return maximum value of maxSum or sum-minSum.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

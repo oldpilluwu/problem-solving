@@ -1,3 +1,8 @@
+/*
+    Using greedy. At every step, we check if that index reachable first using the previous max jump.
+    we take the maximum value between max jump from precious steps and max jump from current step
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

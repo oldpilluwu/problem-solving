@@ -1,3 +1,12 @@
+/*
+    Using dp. dp array keeps track of the maximum value robbed upto each index.
+    We iterate over the array two times.
+    First, since 0th and n-1th house is connected, we iterate from 0 to n-2.
+    Second, we iterate from 1 to n-1.
+    Then we return the max.
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

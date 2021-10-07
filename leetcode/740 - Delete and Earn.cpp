@@ -1,3 +1,10 @@
+/*
+    Using dp. Same as house robber problem.
+    We put the summation of every nums[i] in the nums[i]th index of a temp array.
+    Then we use dp array store maximum number upto that index.
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
